@@ -1,17 +1,10 @@
 name: Post welcome comment
-
 on:
   pull_request:
     types: [opened]
-  workflow_dispatch:
-
 permissions:
   pull-requests: write
-
 jobs:
   build:
     name: Post welcome comment
     runs-on: ubuntu-latest
-    steps:
-      - name: Post welcome comment
-        uses: actions/github-script@v6
