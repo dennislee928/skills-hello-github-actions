@@ -13,4 +13,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Post welcome comment
-        uses: actions/github-script@v6
+        uses: actions/github-script@v7
